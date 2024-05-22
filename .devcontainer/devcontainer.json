@@ -1,0 +1,30 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+    "name": "Node.js & TypeScript",
+
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+
+    "portsAttributes": {
+        "3000": {
+            "label": "Tina CMS",
+            "onAutoForward": "openPreview"
+        },
+        "4001": {
+            "label": "Tina CMS GraphQL Content API",
+            "onAutoForward": "silent"
+        },
+        "9000": {
+            "label": "Tina CMS Data Layer",
+            "onAutoForward": "silent"
+        }
+    },
+
+    "onCreateCommand": "./codespaces-create.sh"
+}

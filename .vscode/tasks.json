@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "GitHub Codespace Launch",
+            "type": "shell",
+            "command": "./codespaces-init.sh",
+            "presentation": {
+                "group": "buildGroup",
+                "reveal": "always",
+                "panel": "dedicated",
+            },
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
