@@ -1,11 +1,10 @@
 {
   "header": {
     "icon": {
-      "name": "Tina",
-      "color": "orange",
-      "style": "float"
+      "color": "white",
+      "style": "circle"
     },
-    "name": "Tina Starter",
+    "name": "Troop 150 website",
     "color": "default",
     "nav": [
       {
