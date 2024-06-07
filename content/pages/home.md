@@ -1,7 +1,7 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - headline: Welcome to the Tina Starter
+  - headline: 'Welcome to the best troop, 150 Starter'
     text: >
       This project is set up to show you the basics of working with Tina. You're
       looking at the landing page, which pulls content from
@@ -18,10 +18,8 @@ blocks:
         icon: false
         link: /posts
     image:
-      src: /uploads/unsplash-75EFpyXu3Wg.jpg
-      alt: >-
-        Photo of palm trees at sunset by Adam Birkett -
-        unsplash.com/photos/75EFpyXu3Wg
+      src: ''
+      alt: ''
     color: default
     _template: hero
   - items:
@@ -56,6 +54,4 @@ blocks:
     color: primary
     _template: testimonial
 ---
-
-
 
