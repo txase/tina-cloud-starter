@@ -36,6 +36,10 @@
         {
           "name": "Privacy Policy",
           "url": "/privacy-policy"
+        },
+        {
+          "name":"History of Scouting",
+          "url":"/history-of-scouting"
         }
       ]
     }
